@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"testing"
 
-	stripe "github.com/stripe/stripe-go"
-	. "github.com/stripe/stripe-go/testing"
+	stripe "github.com/OceanCodes/stripe-go"
+	. "github.com/OceanCodes/stripe-go/testing"
 )
 
 func TestCheckinBackendConfigurationNewRequestWithStripeAccount(t *testing.T) {

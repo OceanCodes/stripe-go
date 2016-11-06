@@ -4,14 +4,14 @@ import (
 	"testing"
 	"time"
 
-	stripe "github.com/stripe/stripe-go"
-	"github.com/stripe/stripe-go/bitcoinreceiver"
-	"github.com/stripe/stripe-go/currency"
-	"github.com/stripe/stripe-go/customer"
-	"github.com/stripe/stripe-go/refund"
-	"github.com/stripe/stripe-go/source"
-	"github.com/stripe/stripe-go/token"
-	. "github.com/stripe/stripe-go/utils"
+	stripe "github.com/OceanCodes/stripe-go"
+	"github.com/OceanCodes/stripe-go/bitcoinreceiver"
+	"github.com/OceanCodes/stripe-go/currency"
+	"github.com/OceanCodes/stripe-go/customer"
+	"github.com/OceanCodes/stripe-go/refund"
+	"github.com/OceanCodes/stripe-go/source"
+	"github.com/OceanCodes/stripe-go/token"
+	. "github.com/OceanCodes/stripe-go/utils"
 )
 
 func init() {

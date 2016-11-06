@@ -3,8 +3,8 @@ package applepaydomain
 import (
 	"testing"
 
-	stripe "github.com/stripe/stripe-go"
-	. "github.com/stripe/stripe-go/utils"
+	stripe "github.com/OceanCodes/stripe-go"
+	. "github.com/OceanCodes/stripe-go/utils"
 )
 
 func init() {

@@ -3,13 +3,13 @@ package account
 import (
 	"testing"
 
-	stripe "github.com/stripe/stripe-go"
-	"github.com/stripe/stripe-go/bankaccount"
-	"github.com/stripe/stripe-go/card"
-	"github.com/stripe/stripe-go/currency"
-	"github.com/stripe/stripe-go/recipient"
-	"github.com/stripe/stripe-go/token"
-	. "github.com/stripe/stripe-go/utils"
+	stripe "github.com/OceanCodes/stripe-go"
+	"github.com/OceanCodes/stripe-go/bankaccount"
+	"github.com/OceanCodes/stripe-go/card"
+	"github.com/OceanCodes/stripe-go/currency"
+	"github.com/OceanCodes/stripe-go/recipient"
+	"github.com/OceanCodes/stripe-go/token"
+	. "github.com/OceanCodes/stripe-go/utils"
 )
 
 func init() {

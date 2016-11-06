@@ -2,7 +2,7 @@
 package applepaydomain
 
 import (
-	stripe "github.com/stripe/stripe-go"
+	stripe "github.com/OceanCodes/stripe-go"
 )
 
 // Client is used to invoke /apple_pay/domains and ApplePayDomain-related APIs.

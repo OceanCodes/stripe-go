@@ -3,12 +3,12 @@ package customer
 import (
 	"testing"
 
-	stripe "github.com/stripe/stripe-go"
-	"github.com/stripe/stripe-go/coupon"
-	"github.com/stripe/stripe-go/currency"
-	"github.com/stripe/stripe-go/discount"
-	"github.com/stripe/stripe-go/plan"
-	. "github.com/stripe/stripe-go/utils"
+	stripe "github.com/OceanCodes/stripe-go"
+	"github.com/OceanCodes/stripe-go/coupon"
+	"github.com/OceanCodes/stripe-go/currency"
+	"github.com/OceanCodes/stripe-go/discount"
+	"github.com/OceanCodes/stripe-go/plan"
+	. "github.com/OceanCodes/stripe-go/utils"
 )
 
 func init() {

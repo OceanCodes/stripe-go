@@ -6,12 +6,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/stripe/stripe-go"
-	"github.com/stripe/stripe-go/currency"
-	"github.com/stripe/stripe-go/order"
-	"github.com/stripe/stripe-go/product"
-	"github.com/stripe/stripe-go/sku"
-	. "github.com/stripe/stripe-go/utils"
+	"github.com/OceanCodes/stripe-go"
+	"github.com/OceanCodes/stripe-go/currency"
+	"github.com/OceanCodes/stripe-go/order"
+	"github.com/OceanCodes/stripe-go/product"
+	"github.com/OceanCodes/stripe-go/sku"
+	. "github.com/OceanCodes/stripe-go/utils"
 )
 
 func init() {
